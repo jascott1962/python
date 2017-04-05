@@ -8,8 +8,8 @@ def main():
     ships_of_the_line = {
         'enterprise': 'ncc1701',
         'excelsior': 'ncc-2000',
-        'voyager':   'ncc-74656',
-        'prometheus':    'nx-59650'
+        'voyager': 'ncc-74656',
+        'prometheus': 'nx-59650'
     }
     captains_available = [
         'James T. Kirk',
@@ -19,10 +19,10 @@ def main():
         'female',
         'male'
     ]
-    with open(yaml_collection, "w") as s:
-        s.write(yaml.dump(captains_available, default_flow_style=False))
-    with open(yaml_collection, "w") as s:
-        json.dump(captains_available, s)
+    with open(yaml_collection, "w") as f:
+        f.write(yaml.dump(captains_available, default_flow_style=False))
+    with open(json_collection, "w") as f:
+        json.dump(captains_available, f)
 
 
 if __name__ == "__main__":

@@ -1,1 +1,9 @@
-["James T. Kirk", "Katherine Janeway", "John-Luc Pickard", {"voyager": "ncc-74656", "prometheus": "nx-59650", "excelsior": "ncc-2000", "enterprise": "ncc1701"}, "female", "male"]
+- James T. Kirk
+- Katherine Janeway
+- John-Luc Pickard
+- enterprise: ncc1701
+  excelsior: ncc-2000
+  prometheus: nx-59650
+  voyager: ncc-74656
+- female
+- male
